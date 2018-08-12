@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sravnizajm test">
+    <listeners>
+        <listener class-name="com.pokotylov.testtask.framework.listener.DefaultReportListener"/>
+    </listeners>
+    <test name="smoke test">
+        <classes>
+            <class name="com.pokotylov.testtask.test.ui.SmokeTest"/>
+        </classes>
+    </test>
+</suite>
